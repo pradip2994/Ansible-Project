@@ -1,5 +1,9 @@
 # Automating Nginx Installation and Webpage Deployment on AWS EC2 with Ansible
 
+
+![Untitled Diagram drawio](https://github.com/pradip2994/Ansible-Project/assets/124191442/74b6299f-a42c-4819-a333-3374761e39ec)
+
+
 ## Launch EC2 instance with name terraform-server
 
 **Install terraform**
