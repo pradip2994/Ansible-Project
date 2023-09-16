@@ -1,7 +1,8 @@
 # Automating Nginx Installation and Webpage Deployment on AWS EC2 with Ansible
 
 
-![Untitled Diagram drawio](https://github.com/pradip2994/Ansible-Project/assets/124191442/71631d2f-b783-4c0f-bdb9-fcbfb5f59f73)
+![Untitled Diagram drawio](https://github.com/pradip2994/Ansible-Project/assets/124191442/4e1c3b76-ebe2-436a-85ef-c6a9611d481b)
+
 
 
 
