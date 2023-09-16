@@ -1,0 +1,20 @@
+---
+- name: installing nginx server
+  hosts: servers
+  become: yes
+  tasks:
+    - name: update apt cache
+      apt: 
+        update_cache: yes
+    - name: install nginx
+      apt:
+        name: nginx
+        state: latest
+    - name: start nginx
+      service:
+         name: nginx
+         state: started
+    - name: deploy webpage
+      copy:
+        src: /home/ubuntu/index.html
+        dest: /var/www/html/index.html
